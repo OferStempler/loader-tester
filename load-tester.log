@@ -1,0 +1,626 @@
+2018-12-02 16:30:32 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 15080 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:30:32 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:30:32 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:32 IST 2018]; root of context hierarchy
+2018-12-02 16:30:32 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8080 (http)
+2018-12-02 16:30:32 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:30:32 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 805 ms
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:30:32 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:32 IST 2018]; root of context hierarchy
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:33 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:33 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:30:33 ERROR [main] o.a.j.l.DirectJDKLog:log:182 - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at load.tester.LoaderTesterApplication.main(LoaderTesterApplication.java:20)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-12-02 16:30:33 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Stopping service [Tomcat]
+2018-12-02 16:30:33 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:logAutoConfigurationReport:101 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-02 16:30:33 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter:report:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-12-02 16:30:33 INFO  [main] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:32 IST 2018]; root of context hierarchy
+2018-12-02 16:30:33 INFO  [main] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:30:46 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 17064 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:30:46 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:30:46 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:46 IST 2018]; root of context hierarchy
+2018-12-02 16:30:47 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:30:47 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:30:47 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 728 ms
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:30:47 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:30:47 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:47 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:46 IST 2018]; root of context hierarchy
+2018-12-02 16:30:48 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:30:48 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:30:48 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:48 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:30:48 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:30:48 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:30:48 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.56 seconds (JVM running for 2.257)
+2018-12-02 16:30:48 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 3
+Number of request per thread: 2
+2018-12-02 16:30:48 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:30:48 INFO  [3] l.t.t.LoadThread:send:64 - 3: 61.0 ms
+2018-12-02 16:30:48 INFO  [2] l.t.t.LoadThread:send:64 - 2: 62.0 ms
+2018-12-02 16:30:48 INFO  [1] l.t.t.LoadThread:send:64 - 1: 62.0 ms
+2018-12-02 16:30:48 INFO  [1] l.t.t.LoadThread:send:64 - 1: 32.0 ms
+2018-12-02 16:30:48 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 47.0ms
+2018-12-02 16:30:48 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 0.094 s. 
+2018-12-02 16:30:48 INFO  [3] l.t.t.LoadThread:send:64 - 3: 674.0 ms
+2018-12-02 16:30:48 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 367.5ms
+2018-12-02 16:30:48 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 0.738 s. 
+2018-12-02 16:30:49 INFO  [2] l.t.t.LoadThread:send:64 - 2: 816.0 ms
+2018-12-02 16:30:49 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 439.0ms
+2018-12-02 16:30:49 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 0.879 s. 
+2018-12-02 16:30:49 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:30:49 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [1]:Total time: 0.094 s. Avarage request time: 47.0ms, 
+Thread [3]:Total time: 0.738 s. Avarage request time: 367.5ms, 
+Thread [2]:Total time: 0.879 s. Avarage request time: 439.0ms]
+2018-12-02 16:30:49 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:30:49 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:30:46 IST 2018]; root of context hierarchy
+2018-12-02 16:30:49 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:31:38 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 18292 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:31:38 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:31:38 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:31:38 IST 2018]; root of context hierarchy
+2018-12-02 16:31:39 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:31:39 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:31:39 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 729 ms
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:31:39 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:31:38 IST 2018]; root of context hierarchy
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:31:39 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:31:39 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:31:39 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:31:39 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.626 seconds (JVM running for 2.235)
+2018-12-02 16:31:39 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:31:39 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:31:39 INFO  [1] l.t.t.LoadThread:send:64 - 1: 74.0 ms
+2018-12-02 16:31:39 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 74.0ms
+2018-12-02 16:31:39 INFO  [4] l.t.t.LoadThread:send:64 - 4: 74.0 ms
+2018-12-02 16:31:39 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 0.074 s. 
+2018-12-02 16:31:39 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 74.0ms
+2018-12-02 16:31:39 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 0.074 s. 
+2018-12-02 16:31:39 INFO  [3] l.t.t.LoadThread:send:64 - 3: 78.0 ms
+2018-12-02 16:31:39 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 78.0ms
+2018-12-02 16:31:39 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 0.078 s. 
+2018-12-02 16:31:39 INFO  [2] l.t.t.LoadThread:send:64 - 2: 82.0 ms
+2018-12-02 16:31:39 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 82.0ms
+2018-12-02 16:31:39 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 0.082 s. 
+2018-12-02 16:31:39 INFO  [5] l.t.t.LoadThread:send:64 - 5: 84.0 ms
+2018-12-02 16:31:39 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 84.0ms
+2018-12-02 16:31:39 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 0.084 s. 
+2018-12-02 16:31:39 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:31:39 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [1]:Total time: 0.074 s. Avarage request time: 74.0ms, 
+Thread [4]:Total time: 0.074 s. Avarage request time: 74.0ms, 
+Thread [3]:Total time: 0.078 s. Avarage request time: 78.0ms, 
+Thread [2]:Total time: 0.082 s. Avarage request time: 82.0ms, 
+Thread [5]:Total time: 0.084 s. Avarage request time: 84.0ms]
+2018-12-02 16:31:39 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:31:39 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:31:38 IST 2018]; root of context hierarchy
+2018-12-02 16:31:39 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:32:49 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 2352 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:32:49 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:32:49 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:32:49 IST 2018]; root of context hierarchy
+2018-12-02 16:32:50 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:32:50 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:32:50 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 722 ms
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:32:50 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:32:50 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:32:51 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:32:49 IST 2018]; root of context hierarchy
+2018-12-02 16:32:51 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:32:51 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:32:51 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:32:51 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:32:51 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:32:51 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:32:51 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.564 seconds (JVM running for 2.179)
+2018-12-02 16:32:51 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:32:51 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:32:51 INFO  [1] l.t.t.LoadThread:send:64 - 1: 72.0 ms
+2018-12-02 16:32:51 INFO  [4] l.t.t.LoadThread:send:64 - 4: 72.0 ms
+2018-12-02 16:32:51 INFO  [5] l.t.t.LoadThread:send:64 - 5: 72.0 ms
+2018-12-02 16:32:51 INFO  [3] l.t.t.LoadThread:send:64 - 3: 72.0 ms
+2018-12-02 16:32:51 INFO  [2] l.t.t.LoadThread:send:64 - 2: 72.0 ms
+2018-12-02 16:32:51 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 72.0ms
+2018-12-02 16:32:51 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 72.0ms
+2018-12-02 16:32:51 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 72.0ms
+2018-12-02 16:32:51 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 72.0ms
+2018-12-02 16:32:51 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 0.072 s. 
+2018-12-02 16:32:51 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 0.072 s. 
+2018-12-02 16:32:51 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 0.072 s. 
+2018-12-02 16:32:51 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 72.0ms
+2018-12-02 16:32:51 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 0.072 s. 
+2018-12-02 16:32:51 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 0.072 s. 
+2018-12-02 16:32:51 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:32:51 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [1]:Total time: 0.072 s. Avarage request time: 72.0ms, 
+Thread [3]:Total time: 0.072 s. Avarage request time: 72.0ms, 
+Thread [5]:Total time: 0.072 s. Avarage request time: 72.0ms, 
+Thread [4]:Total time: 0.072 s. Avarage request time: 72.0ms, 
+Thread [2]:Total time: 0.072 s. Avarage request time: 72.0ms]
+2018-12-02 16:32:51 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:32:51 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e005c4b: startup date [Sun Dec 02 16:32:49 IST 2018]; root of context hierarchy
+2018-12-02 16:32:51 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:35:08 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 15772 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:35:08 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:35:08 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:35:08 IST 2018]; root of context hierarchy
+2018-12-02 16:35:09 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:35:09 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:35:09 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 912 ms
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:35:09 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:35:08 IST 2018]; root of context hierarchy
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:35:10 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:35:10 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:35:10 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:35:10 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 2.087 seconds (JVM running for 3.033)
+2018-12-02 16:35:10 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:35:23 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:35:54 INFO  [3] l.t.t.LoadThread:send:64 - 3: 16123.0 ms
+2018-12-02 16:35:54 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 16123.0ms
+2018-12-02 16:35:54 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 28.408 s. 
+2018-12-02 16:36:04 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 19984 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:36:04 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:36:04 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:04 IST 2018]; root of context hierarchy
+2018-12-02 16:36:05 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:36:05 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:36:05 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 933 ms
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:36:05 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:04 IST 2018]; root of context hierarchy
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:06 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:06 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:36:06 ERROR [main] o.a.j.l.DirectJDKLog:log:182 - Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at load.tester.LoaderTesterApplication.main(LoaderTesterApplication.java:20)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-12-02 16:36:06 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Stopping service [Tomcat]
+2018-12-02 16:36:06 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:logAutoConfigurationReport:101 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-02 16:36:06 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter:report:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2018-12-02 16:36:06 INFO  [main] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:04 IST 2018]; root of context hierarchy
+2018-12-02 16:36:06 INFO  [main] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:36:22 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 2880 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:36:22 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:36:22 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:22 IST 2018]; root of context hierarchy
+2018-12-02 16:36:23 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:36:23 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:36:23 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 879 ms
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:36:23 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:22 IST 2018]; root of context hierarchy
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:23 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:23 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:36:23 ERROR [main] o.a.j.l.DirectJDKLog:log:182 - Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at load.tester.LoaderTesterApplication.main(LoaderTesterApplication.java:20)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-12-02 16:36:23 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Stopping service [Tomcat]
+2018-12-02 16:36:23 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener:logAutoConfigurationReport:101 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-02 16:36:23 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter:report:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+2018-12-02 16:36:23 INFO  [main] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:22 IST 2018]; root of context hierarchy
+2018-12-02 16:36:23 INFO  [main] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:36:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:shutdown:132 - Application shutdown requested.
+2018-12-02 16:36:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:35:08 IST 2018]; root of context hierarchy
+2018-12-02 16:36:32 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:36:42 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 21688 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:36:42 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:36:42 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:42 IST 2018]; root of context hierarchy
+2018-12-02 16:36:42 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:36:42 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:36:42 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:36:42 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 872 ms
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:36:43 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:42 IST 2018]; root of context hierarchy
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:43 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:36:43 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:36:43 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:36:43 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 2.072 seconds (JVM running for 2.896)
+2018-12-02 16:36:43 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:36:43 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:36:46 INFO  [5] l.t.t.LoadThread:send:64 - 5: 2337.0 ms
+2018-12-02 16:36:46 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 2337.0ms
+2018-12-02 16:36:46 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 2.337 s. 
+2018-12-02 16:36:46 INFO  [3] l.t.t.LoadThread:send:64 - 3: 2979.0 ms
+2018-12-02 16:36:46 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 2979.0ms
+2018-12-02 16:36:46 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 2.98 s. 
+2018-12-02 16:36:47 INFO  [4] l.t.t.LoadThread:send:64 - 4: 3725.0 ms
+2018-12-02 16:36:47 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 3725.0ms
+2018-12-02 16:36:47 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 3.726 s. 
+2018-12-02 16:36:47 INFO  [2] l.t.t.LoadThread:send:64 - 2: 4180.0 ms
+2018-12-02 16:36:47 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 4180.0ms
+2018-12-02 16:36:47 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 4.181 s. 
+2018-12-02 16:36:47 INFO  [1] l.t.t.LoadThread:send:64 - 1: 4210.0 ms
+2018-12-02 16:36:47 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 4210.0ms
+2018-12-02 16:36:47 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 4.211 s. 
+2018-12-02 16:36:47 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:36:47 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [5]:Total time: 2.337 s. Avarage request time: 2337.0ms, 
+Thread [3]:Total time: 2.98 s. Avarage request time: 2979.0ms, 
+Thread [4]:Total time: 3.726 s. Avarage request time: 3725.0ms, 
+Thread [2]:Total time: 4.181 s. Avarage request time: 4180.0ms, 
+Thread [1]:Total time: 4.211 s. Avarage request time: 4210.0ms]
+2018-12-02 16:36:47 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:36:47 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41ab013: startup date [Sun Dec 02 16:36:42 IST 2018]; root of context hierarchy
+2018-12-02 16:36:47 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:38:47.604 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 14556 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:38:47.606 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:38:47.636 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:38:47 IST 2018]; root of context hierarchy
+2018-12-02 16:38:48.290 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:38:48.305 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:38:48.306 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:38:48.310 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:38:48.375 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:38:48.376 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 740 ms
+2018-12-02 16:38:48.463 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:38:48.466 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:38:48.467 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:38:48.467 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:38:48.467 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:38:48.561 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:38:48.699 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:38:47 IST 2018]; root of context hierarchy
+2018-12-02 16:38:48.741 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:38:48.743 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:38:48.762 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:38:48.762 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:38:48.864 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:38:48.891 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:38:48.895 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.608 seconds (JVM running for 2.246)
+2018-12-02 16:38:48.898 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:38:48.901 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:38:48.980 INFO  [1] l.t.t.LoadThread:send:64 - 1: 79.0 ms
+2018-12-02 16:38:48.980 INFO  [2] l.t.t.LoadThread:send:64 - 2: 79.0 ms
+2018-12-02 16:38:48.980 INFO  [3] l.t.t.LoadThread:send:64 - 3: 79.0 ms
+2018-12-02 16:38:48.980 INFO  [4] l.t.t.LoadThread:send:64 - 4: 79.0 ms
+2018-12-02 16:38:48.981 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 79.0ms
+2018-12-02 16:38:48.981 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 79.0ms
+2018-12-02 16:38:48.981 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 79.0ms
+2018-12-02 16:38:48.981 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 0.08 s. 
+2018-12-02 16:38:48.981 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 79.0ms
+2018-12-02 16:38:48.981 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 0.08 s. 
+2018-12-02 16:38:48.981 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 0.08 s. 
+2018-12-02 16:38:48.981 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 0.08 s. 
+2018-12-02 16:38:49.002 INFO  [5] l.t.t.LoadThread:send:64 - 5: 101.0 ms
+2018-12-02 16:38:49.003 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 101.0ms
+2018-12-02 16:38:49.003 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 0.102 s. 
+2018-12-02 16:38:49.003 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:38:49.003 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [2]:Total time: 0.08 s. Avarage request time: 79.0ms, 
+Thread [3]:Total time: 0.08 s. Avarage request time: 79.0ms, 
+Thread [1]:Total time: 0.08 s. Avarage request time: 79.0ms, 
+Thread [4]:Total time: 0.08 s. Avarage request time: 79.0ms, 
+Thread [5]:Total time: 0.102 s. Avarage request time: 101.0ms]
+2018-12-02 16:38:49.003 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:38:49.004 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:38:47 IST 2018]; root of context hierarchy
+2018-12-02 16:38:49.006 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:39:14.402 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 20836 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:39:14.405 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:39:14.439 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:39:14 IST 2018]; root of context hierarchy
+2018-12-02 16:39:15.127 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:39:15.142 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:39:15.142 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:39:15.146 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:39:15.212 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:39:15.212 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 773 ms
+2018-12-02 16:39:15.309 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:39:15.313 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:39:15.314 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:39:15.314 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:39:15.314 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:39:15.411 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:39:15.583 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:39:14 IST 2018]; root of context hierarchy
+2018-12-02 16:39:15.625 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:39:15.627 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:39:15.646 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:39:15.647 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:39:15.737 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:39:15.768 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:39:15.771 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.676 seconds (JVM running for 2.343)
+2018-12-02 16:39:15.774 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:39:15.778 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:39:15.846 INFO  [3] l.t.t.LoadThread:send:62 - T=12%2F02%2F2018+14%3A39%3A15&a1=QAlocalhost16464d3fc98&z1=XZZ44cfb576cde7a2D045R7RCDZR5CGT&z2=-9&z3=Duplicate+transaction.+Transaction+has+been+declined.
+2018-12-02 16:39:15.846 INFO  [3] l.t.t.LoadThread:send:64 - 3: 67.0 ms
+2018-12-02 16:39:15.846 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 67.0ms
+2018-12-02 16:39:15.846 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 0.067 s. 
+2018-12-02 16:39:16.461 INFO  [5] l.t.t.LoadThread:send:62 - T=12%2F02%2F2018+14%3A39%3A15&a1=QAlocalhost16464d3fc98&z1=XZZ442e6016ce209D3E65VLIEPEFRAPH&z2=-9&z3=Duplicate+transaction.+Transaction+has+been+declined.
+2018-12-02 16:39:16.461 INFO  [2] l.t.t.LoadThread:send:62 - T=12%2F02%2F2018+14%3A39%3A15&a1=QAlocalhost16464d3fc98&z1=XZZ44706c5ca7f0d7643U6LWSV76RAIV&z2=-9&z3=Duplicate+transaction.+Transaction+has+been+declined.
+2018-12-02 16:39:16.462 INFO  [1] l.t.t.LoadThread:send:62 - T=12%2F02%2F2018+14%3A39%3A15&a1=QAlocalhost16464d3fc98&z1=XZZ44b071aeb2132507ENIXEUS5QBEZD&z2=-9&z3=Duplicate+transaction.+Transaction+has+been+declined.
+2018-12-02 16:39:16.462 INFO  [2] l.t.t.LoadThread:send:64 - 2: 684.0 ms
+2018-12-02 16:39:16.462 INFO  [5] l.t.t.LoadThread:send:64 - 5: 683.0 ms
+2018-12-02 16:39:16.462 INFO  [1] l.t.t.LoadThread:send:64 - 1: 683.0 ms
+2018-12-02 16:39:16.462 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 684.0ms
+2018-12-02 16:39:16.462 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 683.0ms
+2018-12-02 16:39:16.462 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 683.0ms
+2018-12-02 16:39:16.462 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 0.684 s. 
+2018-12-02 16:39:16.462 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 0.683 s. 
+2018-12-02 16:39:16.462 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 0.684 s. 
+2018-12-02 16:39:16.602 INFO  [4] l.t.t.LoadThread:send:62 - T=12%2F02%2F2018+14%3A39%3A15&a1=QAlocalhost16464d3fc98&z1=XZZ4445d584dea0e89CFJ2QODJ4G5GQD&z2=-9&z3=Duplicate+transaction.+Transaction+has+been+declined.
+2018-12-02 16:39:16.602 INFO  [4] l.t.t.LoadThread:send:64 - 4: 823.0 ms
+2018-12-02 16:39:16.602 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 823.0ms
+2018-12-02 16:39:16.602 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 0.823 s. 
+2018-12-02 16:39:16.602 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:39:16.602 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [3]:Total time: 0.067 s. Avarage request time: 67.0ms, 
+Thread [2]:Total time: 0.684 s. Avarage request time: 684.0ms, 
+Thread [5]:Total time: 0.683 s. Avarage request time: 683.0ms, 
+Thread [1]:Total time: 0.684 s. Avarage request time: 683.0ms, 
+Thread [4]:Total time: 0.823 s. Avarage request time: 823.0ms]
+2018-12-02 16:39:16.602 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:39:16.603 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:39:14 IST 2018]; root of context hierarchy
+2018-12-02 16:39:16.605 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-12-02 16:49:41.497 INFO  [main] o.s.b.StartupInfoLogger:logStarting:50 - Starting LoaderTesterApplication on CRXIL004 with PID 21828 (C:\Ofer\Workspace\loader-tester\target\classes started by ostempler in C:\Ofer\Workspace\loader-tester)
+2018-12-02 16:49:41.499 INFO  [main] o.s.b.SpringApplication:logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-12-02 16:49:41.531 INFO  [main] o.s.c.s.AbstractApplicationContext:prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:49:41 IST 2018]; root of context hierarchy
+2018-12-02 16:49:42.268 INFO  [main] o.s.b.w.e.t.TomcatWebServer:initialize:91 - Tomcat initialized with port(s): 8888 (http)
+2018-12-02 16:49:42.284 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting service [Tomcat]
+2018-12-02 16:49:42.284 INFO  [main] o.a.j.l.DirectJDKLog:log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-12-02 16:49:42.289 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\TortoiseHg\;C:\Ofer\apache-maven-3.5.3\bin;C:\Ofer\apache-maven-3.5.3\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Ofer\zookeeper-3.4.9\bin;C:\Program Files\Git\cmd;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ostempler\AppData\Local\Programs\Python\Python37-32\;C:\Users\ostempler\AppData\Local\Microsoft\WindowsApps;C:\Ofer\Kafka\kafka_2.12-2.0.0\bin\windows;;C:\Ofer\Eclipse Oxygen;;.]
+2018-12-02 16:49:42.354 INFO  [localhost-startStop-1] o.a.j.l.DirectJDKLog:log:180 - Initializing Spring embedded WebApplicationContext
+2018-12-02 16:49:42.355 INFO  [localhost-startStop-1] o.s.b.w.s.c.ServletWebServerApplicationContext:prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 824 ms
+2018-12-02 16:49:42.445 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:addRegistration:186 - Servlet dispatcherServlet mapped to [/]
+2018-12-02 16:49:42.449 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-02 16:49:42.450 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-02 16:49:42.450 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-02 16:49:42.450 INFO  [localhost-startStop-1] o.s.b.w.s.AbstractFilterRegistrationBean:configure:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-02 16:49:42.548 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:49:42.694 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:49:41 IST 2018]; root of context hierarchy
+2018-12-02 16:49:42.731 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-02 16:49:42.732 INFO  [main] o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry:register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-02 16:49:42.749 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:49:42.749 INFO  [main] o.s.w.s.h.AbstractUrlHandlerMapping:registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-02 16:49:42.846 INFO  [main] o.s.j.e.MBeanExporter:afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-12-02 16:49:42.881 INFO  [main] o.s.b.w.e.t.TomcatWebServer:start:206 - Tomcat started on port(s): 8888 (http) with context path ''
+2018-12-02 16:49:42.885 INFO  [main] o.s.b.StartupInfoLogger:logStarted:59 - Started LoaderTesterApplication in 1.682 seconds (JVM running for 2.328)
+2018-12-02 16:49:42.888 INFO  [main] l.t.s.RunThread:run:62 - 
+@@@@ Starting Load Tester @@@@
+Nummber of threads: 5
+Number of request per thread: 1
+2018-12-02 16:49:42.893 INFO  [main] l.t.s.RunThread:run:80 - All threads ready, starting to send requests
+2018-12-02 16:49:47.703 INFO  [2] l.t.t.LoadThread:send:62 - K=f547828e4748982d7ebb6fab320e53ba&M=10000244&O=1&T=12%2F02%2F2018+14%3A49%3A42&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a9=6&b1=454313...1116&b2=1&b3=12&b4=19&z1=XZZ44ae7345ff02c187WBINHYXESVD4Z&z14=M&z2=0&z3=Transaction+has+been+executed+successfully.&z30=1&z33=PIVOTAL&z34=153001&z39=FCC3Q4STAJ&z4=VUVWYM&z41=00&z6=00&z9=U
+2018-12-02 16:49:47.703 INFO  [3] l.t.t.LoadThread:send:62 - K=c6ceb80133176d41372a8a083aaba976&M=10000244&O=1&T=12%2F02%2F2018+14%3A49%3A42&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a9=6&b1=454313...1116&b2=1&b3=12&b4=19&z1=XZZ44c2af2111ddc31CV64RU3LRNBGDF&z14=M&z2=0&z3=Transaction+has+been+executed+successfully.&z30=1&z33=PIVOTAL&z34=153001&z39=I4W1RG4UFD&z4=VUVWYM&z41=00&z6=00&z9=U
+2018-12-02 16:49:47.705 INFO  [3] l.t.t.LoadThread:send:64 - 3: 4812.0 ms
+2018-12-02 16:49:47.705 INFO  [2] l.t.t.LoadThread:send:64 - 2: 4812.0 ms
+2018-12-02 16:49:47.706 INFO  [3] l.t.t.LoadThread:send:70 - Avarage request time: 4812.0ms
+2018-12-02 16:49:47.706 INFO  [2] l.t.t.LoadThread:send:70 - Avarage request time: 4812.0ms
+2018-12-02 16:49:47.707 INFO  [2] l.t.t.LoadThread:send:71 - Total time: 4.813 s. 
+2018-12-02 16:49:47.707 INFO  [3] l.t.t.LoadThread:send:71 - Total time: 4.813 s. 
+2018-12-02 16:49:47.813 INFO  [4] l.t.t.LoadThread:send:62 - K=b4ea95a9bd6c8968951692ae5ec8c780&M=10000244&O=1&T=12%2F02%2F2018+14%3A49%3A42&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a9=6&b1=454313...1116&b2=1&b3=12&b4=19&z1=XZZ440085c7643865E373C4MAW6XZBWV&z14=M&z2=0&z3=Transaction+has+been+executed+successfully.&z30=1&z33=PIVOTAL&z34=153001&z39=KW9WH0YQQW&z4=VUVWYM&z41=00&z6=00&z9=U
+2018-12-02 16:49:47.814 INFO  [4] l.t.t.LoadThread:send:64 - 4: 4921.0 ms
+2018-12-02 16:49:47.814 INFO  [4] l.t.t.LoadThread:send:70 - Avarage request time: 4921.0ms
+2018-12-02 16:49:47.814 INFO  [4] l.t.t.LoadThread:send:71 - Total time: 4.921 s. 
+2018-12-02 16:49:47.966 INFO  [5] l.t.t.LoadThread:send:62 - K=d7222b7ee028a75d5da66ea1552d7dee&M=10000244&O=1&T=12%2F02%2F2018+14%3A49%3A42&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a9=6&b1=454313...1116&b2=1&b3=12&b4=19&z1=XZZ44316d7d101a719A6M3BWUJDARD5T&z14=M&z2=0&z3=Transaction+has+been+executed+successfully.&z30=1&z33=PIVOTAL&z34=153001&z39=I3PYFPMPEY&z4=VUVWYM&z41=00&z6=00&z9=U
+2018-12-02 16:49:47.967 INFO  [5] l.t.t.LoadThread:send:64 - 5: 5074.0 ms
+2018-12-02 16:49:47.967 INFO  [5] l.t.t.LoadThread:send:70 - Avarage request time: 5074.0ms
+2018-12-02 16:49:47.967 INFO  [5] l.t.t.LoadThread:send:71 - Total time: 5.074 s. 
+2018-12-02 16:49:48.419 INFO  [1] l.t.t.LoadThread:send:62 - K=4175ec6c4cbf428d58180132978ebea4&M=10000244&O=1&T=12%2F02%2F2018+14%3A49%3A42&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a9=6&b1=454313...1116&b2=1&b3=12&b4=19&z1=XZZ4413ca71657f9B14BBNC2GTTEBFDX&z14=M&z2=0&z3=Transaction+has+been+executed+successfully.&z30=1&z33=PIVOTAL&z34=153001&z39=I3BXBSSNT1&z4=VUVWYM&z41=00&z6=00&z9=U
+2018-12-02 16:49:48.420 INFO  [1] l.t.t.LoadThread:send:64 - 1: 5527.0 ms
+2018-12-02 16:49:48.420 INFO  [1] l.t.t.LoadThread:send:70 - Avarage request time: 5527.0ms
+2018-12-02 16:49:48.420 INFO  [1] l.t.t.LoadThread:send:71 - Total time: 5.527 s. 
+2018-12-02 16:49:48.420 INFO  [main] l.t.s.RunThread:run:83 - All threads compleated
+2018-12-02 16:49:48.420 INFO  [main] l.t.s.RunThread:run:84 - [
+Thread [2]:Total time: 4.813 s. Avarage request time: 4812.0ms, 
+Thread [3]:Total time: 4.813 s. Avarage request time: 4812.0ms, 
+Thread [4]:Total time: 4.921 s. Avarage request time: 4921.0ms, 
+Thread [5]:Total time: 5.074 s. Avarage request time: 5074.0ms, 
+Thread [1]:Total time: 5.527 s. Avarage request time: 5527.0ms]
+2018-12-02 16:49:48.420 INFO  [main] l.t.LoaderTesterApplication:main:23 - @@@@ Loader tester finished with SUCCESS. @@@@
+2018-12-02 16:49:48.421 INFO  [Thread-3] o.s.c.s.AbstractApplicationContext:doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@694abbdc: startup date [Sun Dec 02 16:49:41 IST 2018]; root of context hierarchy
+2018-12-02 16:49:48.423 INFO  [Thread-3] o.s.j.e.MBeanExporter:destroy:451 - Unregistering JMX-exposed beans on shutdown

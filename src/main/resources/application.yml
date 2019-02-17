@@ -1,0 +1,19 @@
+server:
+  port: 8888
+  tomcat:
+    max-connections: 100
+logging:
+  file: load-tester.log
+  level:
+   load.tester: info
+   org.springframework.web.client: off
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%t] %C{1}:%M:%L - %m%n'
+    file:    '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%t] %C{1}:%M:%L - %m%n'
+  
+loader:
+ #url: http://nettds01.dev1.bos.credorax.com:9080/mpi/3ds/createPaReqIfEnrolled
+ #url: http://nettds01.dev1.bos.credorax.com:5000/3ds/authentication
+ url: http://localhost:8080/brain/reverseProxy?K=21faac793f9b7f3742fe08de41a9ee55&M=10000244&O=1&a1=QAlocalhost16464d3fc98&a2=2&a4=100&a5=USD&b1=4543130000001116&b3=12&b4=19&r1=PIVOTAL
+ numberOfRequestsPerThread: 1
+ numberOfThreads: 5

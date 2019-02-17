@@ -1,0 +1,147 @@
+{
+  "deviceChannel": "02",
+  "messageCategory": "01",
+  "threeDSCompInd": "Y",
+  "threeDSRequestor": {
+    "threeDSRequestorAuthenticationInd": "02",
+    "threeDSRequestorAuthenticationInfo": {
+      "threeDSReqAuthMethod": "04",
+      "threeDSReqAuthTimestamp": "201812201735",
+      "threeDSReqAuthData": "threeDSReqAuthData"
+    },
+    "threeDSRequestorChallengeInd": "03",
+    "threeDSRequestorPriorAuthenticationInfo": {
+      "threeDSReqPriorRef": "VOGXpZvTlCmBUyPnnZfmsGDKqxRsRwPovkAE",
+      "threeDSReqPriorAuthMethod": "01",
+      "threeDSReqPriorAuthTimestamp": "201812201735",
+      "threeDSReqPriorAuthData": "threeDSReqPriorAuthData"
+    }
+  },
+  "threeDSServerTransID": "df4b3490-db44-4a88-9619-ab173ff76aaa",
+  "cardholderAccount": {
+    "acctType": "02",
+    "cardExpiryDate": "1812",
+    "acctInfo": {
+      "chAccAgeInd": "04",
+      "chAccDate": "20181220",
+      "chAccChangeInd": "03",
+      "chAccChange": "20181220",
+      "chAccPwChangeInd": "04",
+      "chAccPwChange": "20181220",
+      "shipAddressUsageInd": "03",
+      "shipAddressUsage": "20181220",
+      "txnActivityDay": 1,
+      "txnActivityYear": 1,
+      "provisionAttemptsDay": 1,
+      "nbPurchaseAccount": 1,
+      "suspiciousAccActivity": "01",
+      "shipNameIndicator": "01",
+      "paymentAccInd": "03",
+      "paymentAccAge": "20181220"
+    },
+    "chAccChangeInd": "03",
+    "chAccChange": "20181220",
+    "chAccPwChangeInd": "04",
+    "chAccPwChange": "20181220",
+    "shipAddressUsageInd": "03",
+    "shipAddressUsage": "20181220",
+    "txnActivityDay": 1,
+    "txnActivityYear": 1,
+    "provisionAttemptsDay": 1,
+    "nbPurchaseAccount": 1,
+    "suspiciousAccActivity": "01",
+    "shipNameIndicator": "01",
+    "paymentAccInd": "03",
+    "paymentAccAge": "20181220",
+    "acctNumber": "4000003999999999",
+    "schemeId": "Visa",
+    "acctID": "acct-Id",
+    "payTokenInd": true
+  },
+  "cardholder": {
+    "addrMatch": "N",
+    "billAddrCity": "billAddrCity",
+    "billAddrCountry": "222",
+    "billAddrLine1": "billAddrLine1",
+    "billAddrLine2": "billAddrLine2",
+    "billAddrLine3": "billAddrLine3",
+    "billAddrPostCode": "billAddrPostCode",
+    "billAddrState": "111",
+    "email": "aaa-bbb@example.com",
+    "homePhone": {
+      "cc": "cc",
+      "subscriber": "subs"
+    },
+    "mobilePhone": {
+      "cc": "cc",
+      "subscriber": "subs"
+    },
+    "workPhone": {
+      "cc": "cc",
+      "subscriber": "subs"
+    },
+    "cardholderName": "cardholderName",
+    "shipAddrCity": "shipAddrCity",
+    "shipAddrCountry": "111",
+    "shipAddrLine1": "shipAddrLine1",
+    "shipAddrLine2": "shipAddrLine2",
+    "shipAddrLine3": "shipAddrLine3",
+    "shipAddrPostCode": "shipAddrPostCode",
+    "shipAddrState": "222"
+  },
+  "relaxRegionalValidationRules": false,
+  "purchase": {
+    "purchaseInstalData": 3,
+    "merchantRiskIndicator": {
+      "shipIndicator": "01",
+      "deliveryTimeframe": "02",
+      "deliveryEmailAddress": "a-b@example.com",
+      "reorderItemsInd": "01",
+      "preOrderPurchaseInd": "01",
+      "preOrderDate": "20181220",
+      "giftCardAmount": 2,
+      "giftCardCurr": "111",
+      "giftCardCount": 1
+    },
+    "purchaseAmount": 1,
+    "purchaseCurrency": "111",
+    "purchaseExponent": 1,
+    "purchaseDate": "20181220173550",
+    "recurringExpiry": "20181220",
+    "recurringFrequency": 1,
+    "transType": "01"
+  },
+  "acquirer": {
+    "acquirerBin": "acq-bin",
+    "acquirerMerchantId": "acq-mer-id"
+  },
+  "merchant": {
+    "mcc": "code",
+    "merchantCountryCode": "333",
+    "merchantName": "name"
+  },
+  "broadInfo": {"message": "TLS 1.x will be turned off starting summer 2019 "},
+  "messageExtension": [
+    {
+      "name": "name",
+      "id": "id",
+      "criticalityIndicator": false,
+      "data": {
+        "valueOne": "value1",
+        "valueTwo":"value2"
+      }
+    }
+  ],
+  "browserInformation": {
+    "browserAcceptHeader": "brw-accept-header",
+    "browserIP": "192.168.1.11",
+    "browserJavaEnabled": true,
+    "browserLanguage": "brw-lang",
+    "browserColorDepth": "8",
+    "browserScreenHeight": 1,
+    "browserScreenWidth": 1,
+    "browserTZ": 1,
+    "browserUserAgent": "brw-user",
+    "challengeWindowSize": "01"
+  }
+}
